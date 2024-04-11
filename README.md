@@ -7,7 +7,7 @@ This is a web application that allows users to browse items, add them to their c
 - `POST /users`: Creates a new user.
 - `GET /users`: Lists all users.
 - `POST /users/login`: Logs in an existing user based on username and password.
-- `POST /items`: Creates an item.
+- `http://localhost:3000/api/data/post/product`: Creates an item.
 - `GET /items`: Lists all items.
 - `POST /carts`: Creates a cart and adds items to it.
 - `GET /carts`: Lists all carts.
