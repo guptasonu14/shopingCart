@@ -5,6 +5,7 @@ import Contact from './Pages/Contact';
 import Layout from './Pages/Layout';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
+import Cart from './Pages/Cart.jsx'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                     <Route element={<Layout/>}>
                         <Route path="/" element={<Home />} />
                         <Route path='/contact' element={<Contact />} />
+                        <Route path="/cart" element={<Cart />} />
                         <Route path='/login' element={<Login />} />
                         <Route path='/signup' element={<SignUp />} />
                     </Route>

@@ -1,0 +1,116 @@
+/* Checkout.css */
+
+.main {
+    width: 100%; /* Use full width */
+    max-width: 50rem; /* Maximum width */
+    margin: 0 auto; /* Center the content */
+    margin-top: 4rem;
+  }
+  
+  .bg-aqua {
+    background-color: rgb(218, 228, 228);
+    margin-top: 9rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+  }
+  
+  /* Cart Text */
+  .cart-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Product Info Container */
+  .product-container {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.25rem;
+    flex-shrink: 0;
+  }
+  
+  /* Product Details */
+  .product-details {
+    margin-left: 1.5rem;
+    margin-top: -3rem;
+    
+  }
+  
+  .product-name {
+    font-weight: 600;
+    
+  }
+  
+  .product-description {
+    color: #777;
+  }
+  
+  .product-price {
+    font-weight: 600;
+  }
+  
+  /* Subtotal Container */
+  .subtotal-container {
+    margin-top: 1rem;
+  }
+  
+  .subtotal-text {
+    font-weight: 600;
+  }
+  
+  /* Shipping and Taxes Text */
+  .shipping-text {
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  /* Checkout Button */
+  .checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Continue Shopping Text */
+  .continue-shopping {
+    text-align: center;
+    color: #777;
+  }
+  
+  .continue-shopping a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .continue-shopping a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .bg-aqua {
+      padding: 1rem;
+    }
+  
+    .product-image {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
