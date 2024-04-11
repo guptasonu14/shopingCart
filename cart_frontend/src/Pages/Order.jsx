@@ -1,18 +1,15 @@
 import React from 'react';
-import './Cart.css'; 
+import './Order.css'; 
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 
-
-
-const Cart = () => {
+const Order = () => {
     const data= useSelector((state)=>state.productdata.items);
    
   return (
     <div className='main'>
       <div className="bg-aqua">
         {/* Cart Text Container */}
-        <h1 className="cart-heading">Cart</h1>
+        <h1 className="cart-heading">Review Your Order</h1>
         <hr />
    {
     data.map((item)=>(
@@ -48,25 +45,20 @@ const Cart = () => {
           <p className="subtotal-text">Subtotal: {
             data.reduce((acc,curr)=>acc+curr.price,0)
           }</p>
-          
+          <p>Total Items in cart: {data.length}</p>
         </div>
 
         {/* Shipping and Taxes Text */}
         <p className="shipping-text">Shipping and taxes calculated at checkout.</p>
 
         {/* Checkout Button */}
-        <Link to="/order">
-  <button className="checkout-button">Checkout</button>
-</Link>
-
+        <button className="checkout-button">Place Your Order</button>
 
         {/* Continue Shopping Text */}
-        <p className="continue-shopping">
-          <a href="/">Continue Shopping</a>
-        </p>
+        
       </div>
     </div>
   );
 };
 
-export default Cart;
+export default Order;

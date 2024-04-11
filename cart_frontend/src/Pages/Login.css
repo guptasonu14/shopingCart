@@ -17,6 +17,7 @@
     flex-grow: 1;
     padding: var(--padding);
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 
