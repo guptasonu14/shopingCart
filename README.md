@@ -28,6 +28,8 @@ Please note that the endpoints marked with an asterisk (*) require the user's to
 1. **User Login Screen**: Allows users to enter their username and password to log in. Displays an alert on invalid credentials.
 
 2. **List Items Screen**: Shows all available items. Clicking on an item adds it to the cart.
+   ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/7c8d0c40-f457-47f6-931d-a003cec165d1)
 
-3. **Cart and Order History**: Shows buttons for accessing the cart and order history.
+
+4. **Cart and Order History**: Shows buttons for accessing the cart and order history.
 ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/c8790d43-6c0e-48b6-825f-d5a4feb1374d)
