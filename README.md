@@ -39,5 +39,6 @@ Please note that the endpoints marked with an asterisk (*) require the user's to
 
 6. **Cart and Order History**: Shows buttons for accessing the cart and order history.
 ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/c8790d43-6c0e-48b6-825f-d5a4feb1374d)
+7.**Review your Order before PlaceOrder**
 ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/25d24cfc-e6a1-4ac8-859a-ea1d4b7a61f8)
 
