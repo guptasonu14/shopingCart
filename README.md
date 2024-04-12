@@ -67,11 +67,11 @@ To start the backend and frontend servers, follow these steps:
 - `POST /api/auth/register`: Creates a new user.
 - `POST /api/auth/login`: Logs in an existing user based on user emailand password.
 - `POST /api/data/post/product`: Creates an item.
-- `GET /api/data/product`: Lists all items.
+- `GET /api/data/get/product`: Lists all items.
 - `POST /cart`: Creates a cart and adds items to it.
 - `GET /cart`: Lists all carts.
-- `POST /orders`: Converts a cart into an order.
-- `GET /orders`: Lists all orders.
+- `POST /order`: Converts a cart into an order.
+- `GET /order`: Lists all orders.
 
 Please note that the endpoints marked with an asterisk (*) require the user's token to be present in the request header to identify the user.
 
