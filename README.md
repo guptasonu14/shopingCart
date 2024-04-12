@@ -26,10 +26,15 @@ Please note that the endpoints marked with an asterisk (*) require the user's to
 ## Screens in React Web App
 
 1. **User Login Screen**: Allows users to enter their username and password to log in. Displays an alert on invalid credentials.
+2. ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/3095919b-d408-41c2-badf-e369cc16f5a6)
+3. ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/67b28b32-5d05-4c18-956e-810692eb029a)
 
-2. **List Items Screen**: Shows all available items. Clicking on an item adds it to the cart.
+
+
+
+4. **List Items Screen**: Shows all available items. Clicking on an item adds it to the cart.
    ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/7c8d0c40-f457-47f6-931d-a003cec165d1)
 
 
-4. **Cart and Order History**: Shows buttons for accessing the cart and order history.
+5. **Cart and Order History**: Shows buttons for accessing the cart and order history.
 ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/c8790d43-6c0e-48b6-825f-d5a4feb1374d)
