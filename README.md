@@ -4,11 +4,10 @@ This is a web application that allows users to browse items, add them to their c
 
 ## Endpoints Summary
 
-- `POST /users`: Creates a new user.
-- `GET /users`: Lists all users.
-- `POST /users/login`: Logs in an existing user based on username and password.
-- `http://localhost:3000/api/data/post/product`: Creates an item.
-- `GET /items`: Lists all items.
+- `POST /api/auth/register`: Creates a new user.
+- `POST /api/auth/login`: Logs in an existing user based on user emailand password.
+- `POST /api/data/post/product`: Creates an item.
+- `GET /api/`: Lists all items.
 - `POST /carts`: Creates a cart and adds items to it.
 - `GET /carts`: Lists all carts.
 - `POST /orders`: Converts a cart into an order.
@@ -38,3 +37,5 @@ Please note that the endpoints marked with an asterisk (*) require the user's to
 
 5. **Cart and Order History**: Shows buttons for accessing the cart and order history.
 ![image](https://github.com/guptasonu14/shopingCart/assets/74126459/c8790d43-6c0e-48b6-825f-d5a4feb1374d)
+![image](https://github.com/guptasonu14/shopingCart/assets/74126459/25d24cfc-e6a1-4ac8-859a-ea1d4b7a61f8)
+
